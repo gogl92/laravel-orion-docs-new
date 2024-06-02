@@ -43,7 +43,7 @@ provide('navigation', navigation)
 
 <template>
   <div>
-    <NuxtLoadingIndicator color="indigo"/>
+    <NuxtLoadingIndicator color="gray"/>
 
     <Banner/>
 
