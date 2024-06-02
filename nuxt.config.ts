@@ -48,11 +48,5 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  },
-  nitro: {
-    output: {
-      dir: 'dist/orion',
-      publicDir: 'dist/orion'
-    }
   }
 })
