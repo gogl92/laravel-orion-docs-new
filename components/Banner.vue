@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const saEvent = inject('saEvent')
+
 const id = 'laravel-orion-rest-api-consultancy-banner-1'
 const to = 'https://cal.com/alexzarbn/rest-api-consultancy-introduction'
 
@@ -20,12 +22,16 @@ if (process.server) {
     }]
   })
 }
+
+const trackClick = () => {
+  saEvent("consultancy_banner_click")
+}
 </script>
 
 <template>
   <div class="relative bg-primary hover:bg-primary/90 transition-[background] backdrop-blur z-50 app-banner">
     <UContainer class="py-2">
-      <NuxtLink v-if="to" :to="to" target="_blank" class="focus:outline-none" aria-label="Nuxt UI Pro pricing" tabindex="-1">
+      <NuxtLink v-if="to" :to="to" target="_blank" class="focus:outline-none" aria-label="Nuxt UI Pro pricing" tabindex="-1" @click="trackClick">
         <span class="absolute inset-0 " aria-hidden="true" />
       </NuxtLink>
 
