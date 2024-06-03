@@ -46,7 +46,7 @@ export default defineAppConfig({
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/tailflow/laravel-orion-docs/edit/main/content',
+      edit: 'https://github.com/tailflow/laravel-orion-docs-new/edit/main/content',
       links: [{
         icon: 'i-heroicons-star',
         label: 'Star on GitHub',
