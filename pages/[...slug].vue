@@ -26,12 +26,6 @@ useSeoMeta({
   ogDescription: page.value.description
 })
 
-defineOgImage({
-  component: 'Docs',
-  title: page.value.title,
-  description: page.value.description
-})
-
 const headline = computed(() => page.value._dir === 'typescript-sdk' ? 'TypeScript SDK' : findPageHeadline(page.value))
 
 const links = computed(() => [toc?.bottom?.edit && {
