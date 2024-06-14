@@ -32,6 +32,9 @@ export default defineNuxtConfig({
     preference: 'dark'
   },
   routeRules: {
+    '/': {
+      prerender: true
+    },
     '/api/search.json': { prerender: true }
   },
   devtools: {
