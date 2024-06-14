@@ -4,7 +4,7 @@ export const useContentSource = () => {
 
   const versions = computed(() => [{
     name: 'latest',
-    label: 'v2.22.3',
+    label: 'v2.22.5',
     icon: 'i-heroicons-cube',
     suffix: `latest`,
     click: () => select({ name: 'latest' })
