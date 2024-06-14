@@ -6,8 +6,8 @@ hero:
   description: 'The simplest way to create REST API with Laravel'
   orientation: horizontal
   headline:
-    label: v2.22.3 released
-    to: https://github.com/tailflow/laravel-orion/releases/tag/2.22.3
+    label: v2.22.5 released
+    to: https://github.com/tailflow/laravel-orion/releases/tag/2.22.5
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
     - label: Get started
